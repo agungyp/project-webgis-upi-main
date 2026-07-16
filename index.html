@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Campus Map University of Education</title>
+
+  <!-- CSS utama -->
+  <link rel="stylesheet" href="assets/css/landing.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link 
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200..700&display=swap" 
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome -->
+  <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+  />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <section class="header" id="home">
+    <nav>
+      <a href="index.html">
+        <img src="images/logo.png" alt="Logo UPI" />
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="map.html">MAPS</a></li>
+          <li><a href="#features">FEATURES</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+      <h1>Campus Map University of Education</h1>
+      <p>Explore our campus with interactive, accurate, and aesthetic maps.</p>
+      <a href="map.html" class="hero-btn">Explore Campus Map</a>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="course" id="features">
+    <h1>Map Features You Can Explore</h1>
+    <p>
+      Our campus map includes interactive thematic layers to help you navigate
+      and explore the university environment with ease.
+    </p>
+
+    <div class="row">
+      <div class="course-col">
+        <h3>Campus Facilities</h3>
+        <p>
+          Explore buildings, lecture halls, libraries, cafeterias, and other key
+          infrastructure locations throughout the university.
+        </p>
+      </div>
+
+      <div class="course-col">
+        <h3>Accessibility Routes</h3>
+        <p>
+          Navigate through wheelchair-friendly paths, emergency exits, elevators,
+          and accessible entrances for all users.
+        </p>
+      </div>
+
+      <div class="course-col">
+        <h3>Thematic Layers</h3>
+        <p>
+          View custom layers such as Wi-Fi zones, CCTV coverage, green areas,
+          parking spots, and more with just one click.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="course" id="about">
+    <h1>About This WebGIS</h1>
+    <p>
+      This WebGIS was developed to visualize the campus area of Universitas
+      Pendidikan Indonesia using a georeferenced campus map, Leaflet.js,
+      OpenStreetMap, satellite imagery, and interactive building information.
+    </p>
+  </section>
+
+  <!-- CAMPUS MAP PREVIEW -->
+  <section class="campus-map-preview" id="maps">
+    <h1>Explore the Campus</h1>
+    <p>
+      Get a closer look at our interactive campus map. Click the button below to
+      open the WebGIS map.
+    </p>
+
+    <div class="map-container">
+      <img src="images/map-preview.png" alt="Campus Map Preview" />
+      <br />
+      <a href="map.html" class="hero-btn">Open Interactive Map</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="course" id="contact">
+    <h1>Contact</h1>
+    <p>
+      Universitas Pendidikan Indonesia<br />
+      Jl. Dr. Setiabudi No. 229, Bandung, Jawa Barat
+    </p>
+  </section>
+
+  <!-- JAVASCRIPT TOGGLE MENU -->
+  <script src="assets/js/landing.js"></script>
+
+</body>
+</html>

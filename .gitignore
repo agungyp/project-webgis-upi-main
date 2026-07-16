@@ -1,0 +1,24 @@
+# ==========================================================
+#  Artifact QGIS / sumber data mentah (non-runtime)
+#  Berat & tidak diperlukan browser — cukup disimpan lokal.
+#  (Lihat README: cara meng-untrack jika sebelumnya sudah ter-commit)
+# ==========================================================
+data-source/
+
+# ==========================================================
+#  Dependency & build (jika nanti memakai tooling npm/bundler)
+# ==========================================================
+node_modules/
+dist/
+.cache/
+
+# ==========================================================
+#  OS & Editor
+# ==========================================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.log
